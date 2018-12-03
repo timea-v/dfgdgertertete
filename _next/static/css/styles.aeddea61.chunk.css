@@ -50,7 +50,7 @@ html, body, #__next {
   background-color: #9ee1da;
   height: auto;
   margin: auto;
-  max-width: calc(100% - 50px); }
+  max-width: calc(100%); }
 
 @media only screen and (max-width: 800px) {
   html, body, #__next {
@@ -66,7 +66,7 @@ div.item {
   max-width: 700px; }
 
 div.body.item {
-  font-size: 23px;
+  font-size: 21px;
   line-height: 30px;
   font-family: FolioTLig; }
 

@@ -381,7 +381,7 @@ function (_React$PureComponent) {
     key: "componentDidMount",
     value: function componentDidMount() {
       canvas = document.querySelector('canvas');
-      canvas.width = document.getElementsByClassName('container')[0].offsetWidth;
+      canvas.width = document.getElementById('__next').offsetWidth;
       canvas.height = Math.floor(document.getElementsByClassName('container')[0].offsetHeight);
       ctx = canvas.getContext('2d');
       count = canvas.height;
@@ -22769,7 +22769,6 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "bubblecontainer",
         style: {
-          pointerEvents: 'none',
           overflow: 'hidden',
           position: 'absolute',
           top: 0,
@@ -22788,6 +22787,7 @@ function (_React$PureComponent) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         style: {
           display: 'flex',
+          zIndex: 12,
           justifyContent: 'space-between',
           alignItems: 'center',
           width: '140px',

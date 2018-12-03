@@ -84,7 +84,7 @@ html, body, #__next {
   background-color: darken($color-3, 4%);
   height: auto;
   margin: auto;
-  max-width: calc(100% - 50px);
+  max-width: calc(100%);
 }
 @media only screen and (max-width: 800px) {
   html, body, #__next {
